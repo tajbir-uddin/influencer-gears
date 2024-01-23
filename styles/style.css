@@ -9,10 +9,11 @@ body {
 }
 
 /* Header Section styles */
-header{
+header {
     margin-left: 120px;
     margin-right: 120px;
 }
+
 /* nav styles */
 .nav {
     display: flex;
@@ -20,8 +21,18 @@ header{
     align-items: center;
 }
 
+.nav-title {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .nav a {
     text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 30px;
 }
 
 /* banner styles */
@@ -37,9 +48,33 @@ header{
     color: #3A3A3A;
     font-size: 52px;
     font-weight: 700;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.banner-btn {
+    color: #FFF;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    margin-top: 0;
+}
+
+.pre-book {
+    padding-right: 8px;
 }
 
 .banner-img {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
+    width: 440px;
+    height: 414px;
 }
