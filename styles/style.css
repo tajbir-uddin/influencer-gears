@@ -10,8 +10,7 @@ body {
 
 /* Header Section styles */
 header {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin: 100px 120px;
 }
 
 /* nav styles */
