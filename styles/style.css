@@ -118,16 +118,19 @@ header {
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
 }
+.card-btn{
+    text-align: end;
+}
 
-.card-btn {
+.card-btn button {
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
     text-align: center;
     border: 0;
     background: none;
     padding: 50px;
-    
 }
+
 /* .collection button{
     object-position: right;
 } */
@@ -167,12 +170,21 @@ header {
 }
 
 /* Footer section */
-.footer{
+.footer {
     background: #0A0826;
     color: #FFF;
     text-align: center;
     padding: 50px 200px;
-    
+
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.icon a{
+    color: #FFF;
 }
 
 /* Responsive styles */
@@ -223,6 +235,17 @@ header {
         margin-right: 20px;
     }
 
+    .feature-section {
+        flex-direction: column-reverse;
+        margin: 50px 20px;
+        gap: 50px;
+    }
+
+    /* footer */
+    .footer {
+        padding: 50px 20px;
+    }
+
 }
 
 /* middle size device */
@@ -257,5 +280,13 @@ header {
         gap: 50px;
         margin-left: 100px;
         margin-right: 100px;
+    }
+
+    /* feature */
+    .feature-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 50px 150px;
+        gap: 50px;
     }
 }
