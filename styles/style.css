@@ -77,3 +77,16 @@ header {
     width: 440px;
     height: 414px;
 }
+
+/* main section */
+/* sponsor section */
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 165px 100px 165px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+.sponsor-img{
+    padding: 30px;
+}
