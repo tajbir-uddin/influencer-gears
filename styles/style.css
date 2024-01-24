@@ -126,7 +126,11 @@ header {
     border: 0;
     background: none;
     padding: 50px;
+    
 }
+/* .collection button{
+    object-position: right;
+} */
 
 /* feature section */
 .feature-section {
@@ -160,6 +164,15 @@ header {
     color: #FFF;
     font-weight: 700;
     border: none;
+}
+
+/* Footer section */
+.footer{
+    background: #0A0826;
+    color: #FFF;
+    text-align: center;
+    padding: 50px 200px;
+    
 }
 
 /* Responsive styles */
